@@ -7,4 +7,4 @@ How to install:
 1. Ensure that the Acceptance Level in ESXi is set to "Community" by going to Manage -> Security & Users -> Acceptance Level
 2. Upload the VIB file to /tmp directory of the ESXi server
 3. Login to ESXi via SSH and run: **esxcli software vib install -v /tmp/packer-vnc.vib -f**
-4. Check that the VIB was installed successfully: esxcli software vib list | grep 'packer'
+4. Check that the VIB was installed successfully: **esxcli software vib list | grep 'packer'**
